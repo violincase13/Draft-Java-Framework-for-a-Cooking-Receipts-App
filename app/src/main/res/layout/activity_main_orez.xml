@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_orez">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mode"
+            android:textSize="20dp"
+            android:layout_marginTop="70dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName25"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Lait avec du riz"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="500ml eau" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="250g riz" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="500ml lait" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="170g sucre" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Cannelle" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="On met l'eau dans une casserole sur le feu et " />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="aped 30 min, on ajoute le riz. Ensuite, on ajoute le " />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="lait. Et on la laisse a bouiller. La cennelle est ajoute" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="apres refrodissement" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

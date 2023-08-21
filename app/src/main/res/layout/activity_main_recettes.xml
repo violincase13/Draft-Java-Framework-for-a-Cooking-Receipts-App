@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    tools:context=".MainActivity_recettes">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName32"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Recettes"
+            android:layout_marginTop="65dp"
+
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clatite"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Crepes"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/budinca"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Pudding"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/omleta"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Onlette"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/orez"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Riz au lait"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/paste"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Pates"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/cake"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Cheesecake"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/cartofi"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Patates douces cuites"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/chia"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Pudding de chia"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

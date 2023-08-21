@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_paste">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mode"
+            android:textSize="20dp"
+            android:layout_marginTop="70dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName40"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pates"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="200g pates" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="150g parmesan" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="200g lard" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="2 oeufs" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Sel" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Eau" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="On met eau dans un casserole et on le met sur le " />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="feu. Apres 10 min, on ajoute les pates. On coupe " />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="le lard et on le met dans une poele. One met les " />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="oeufs et le parmesan dans un bol et on melange." />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="On met tout dans une assiette" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
